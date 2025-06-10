@@ -1,0 +1,9 @@
+[project]
+name = "mcp-gitlab-mr"
+version = "0.1.0"
+description = "Simple MCP tool to list and fetch MRs for a gitlab prject"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.7.1",
+]
