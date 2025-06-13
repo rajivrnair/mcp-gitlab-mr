@@ -5,10 +5,8 @@ source ~/.zshrc # It adds $HOME/.local/bin to your PATH
 uv --version
 ```
 
-# Create a new uv project
+# Setup the python environment (needs python 3.10+)
 ``` 
-uv init mcp-gitlab-mr
-cd mcp-gitlab-mr
 uv venv
 source .venv/bin/activate
 python --version #should be 3.10+
