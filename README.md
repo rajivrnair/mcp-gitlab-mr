@@ -1,9 +1,10 @@
 # Install uv (curl or brew)
 ```
-curl -LsSf https://astral.sh/uv/install.sh | sh
-source ~/.zshrc # It adds $HOME/.local/bin to your PATH
+brew install uv
+source ~/.zshrc # Installation adds $HOME/.local/bin to your PATH. So restart your terminal our source your shell config.
 uv --version
 ```
+See [UV installation](https://docs.astral.sh/uv/getting-started/installation/) for more options
 
 # Setup the python environment (needs python 3.10+)
 ``` 
