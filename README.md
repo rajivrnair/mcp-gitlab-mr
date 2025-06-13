@@ -1,7 +1,7 @@
 # Install uv (curl or brew)
 ```
 brew install uv
-source ~/.zshrc # Installation adds $HOME/.local/bin to your PATH. So restart your terminal our source your shell config.
+source ~/.zshrc # Installation adds $HOME/.local/bin to your PATH. So restart your terminal and source your shell config.
 uv --version
 ```
 See [UV installation](https://docs.astral.sh/uv/getting-started/installation/) for more options
