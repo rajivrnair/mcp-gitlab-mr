@@ -37,3 +37,5 @@ fastmcp version
   }
 }
 ```
+Restart Claude Code after the changes.
+Depending on how you've configured Claude Code, you will find the `mcpServers` in a `projects` block.
