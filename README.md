@@ -39,3 +39,12 @@ fastmcp version
 ```
 Restart Claude Code after the changes.
 Depending on how you've configured Claude Code, you will find the `mcpServers` in a `projects` block.
+
+If everything went well, you'll see something like the following output when you type `/mcp` in claude:
+```
+│ Manage MCP Servers                                                                                                                                                                                                                                │
+│ 1 server found                                                                                                                                                                                                                                    │                         │
+│                                                                                                                                                                                                                                                   │
+│ ❯ 1. mcp-gitlab-mr  connected |
+```
+
